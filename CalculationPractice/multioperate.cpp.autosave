@@ -1,0 +1,12 @@
+#include "multioperate.h"
+
+MultiOperate::MultiOperate()
+{
+
+}
+
+
+Answer MulOperate::operate(Equation &e)
+{
+    return new Answer(e.m_oprdA * e.m_oprdB);
+}

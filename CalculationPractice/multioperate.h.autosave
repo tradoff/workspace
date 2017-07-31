@@ -1,0 +1,13 @@
+#ifndef MULTIOPERATE_H
+#define MULTIOPERATE_H
+
+#include "operate.h"
+
+class MultiOperate : public Operate
+{
+public:
+    MultiOperate();
+    Answer operate(Equation &e);
+};
+
+#endif // MULTIOPERATE_H
